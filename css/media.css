@@ -1,3 +1,27 @@
+@media screen and (max-width: 950px) {
+
+    #video{
+        width: 400px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+
+    #video{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+
+    #video{
+        width: 250px;
+        height: 200px;
+    }
+}
+
 @media screen and (max-width: 450px) {
     #span {
         display: none;
@@ -8,4 +32,5 @@
         bottom: 0;
         width: 100%
     }
+
 }
