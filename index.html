@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html data-color-mode="dark" data-dark-theme="dark_dimmed">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Безопасность Web-ресурсов</title>
+    <link rel="stylesheet" href="css/media.css">
+    <link href=" https://unpkg.com/@primer/css@^20.2.4/dist/primer.css " rel=" stylesheet " />
+</head>
+
+<header class="anim-fade-up">
+    <div class="Header header-main__wrapper d-flex flex-wrap">
+        <div class="Header-item">
+            <a class="gfg_logo_img normal Header-link f4 d-flex flex-items-center" aria-label="Logo" href="index.html">
+                <div class="_logo"><img class="gfg_logo_img normal anim-rotate" src="img/icons8-spiderweb-96.png"
+                        alt="logo" width="40" height="40">
+                </div>
+                <span class="p-2">DaniilPopov</span>
+            </a>
+        </div>
+
+        <div class="Header-item">
+            <img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/s.png" alt=""><input
+                type="search" class="form-control Header-input" />
+        </div>
+        <div class="Header-item Header-item--full">
+            <span id="span" class="Label mr-1 Label--accent f5">Сайт разработан с помощью фреймворка Primer CSS</span>
+        </div>
+
+        <div class="flex-justify-center mt-2 flex-justify-around">
+            <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/youtube.png"
+                    alt=""></a>
+            <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/facebook.png"
+                    alt=""></a>
+            <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/instagram.png"
+                    alt=""></a>
+            <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/telegram.png"
+                    alt=""></a>
+            <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/twitter.png"
+                    alt=""></a>
+        </div>
+
+        <div class="header-main__container"></div>
+        <span class="hamburger-menu">
+            <span class="gfg-burger-1"></span>
+            <span class="gfg-burger-2"></span>
+            <span class="gfg-burger-3"></span>
+        </span>
+
+
+    </div>
+</header>
+
+<body>
+
+    <div class="Layout Layout--sidebarPosition-start">
+        <!-- Main -->
+        <div class="Layout-main px-3">
+            <div class="text-white py-6 p-responsive">
+                <nav aria-label="Breadcrumb anim-fade-up ">
+                    <ol class="anim-fade-up">
+                        <li class="breadcrumb-item breadcrumb-item-selected ">
+                            <a href="index.html" aria-current="page">Главная</a>
+                        </li>
+                    </ol>
+                </nav>
+                <h1 class="f00-light anim-fade-up">Безопасность Web-ресурсов</h1>
+                <p class="f3 mb-4 anim-fade-up">Под безопасностью веб-сервисов, как правило, понимается обеспечение
+                    сохранности данных и их недоступность для посторонних лиц, а также способность приложения сохранять
+                    работоспособность при кибератаках и не подвергаться заражению вирусами.</p>
+                <!-- <a class="btn btn-transparent link-hover-blue text-normal py-2 mb-6 f4"
+                    href="https://www.npmjs.com/package/primer">Install Primer via npm</a> -->
+
+                <div class="anim-fade-up">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/M802cY6sZUA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <div class="markdown-body mt-3">
+                    <h1 class="anim-fade-up ">Основные причины угроз безопасности</h1>
+                    <ul class="f3 py-4 anim-fade-up ">
+                        <li class="anim-hover-grow">Уязвимости самого сайта / приложения перед кибератакой — например,
+                            отсутствие защиты от перебора паролей, возможность внедрения стороннего кода (XSS,
+                            SQL-инъекции, отсутствие защиты от CSRF)</li>
+                        <li class="anim-hover-grow">Недостаточное быстродействие системы или повышенная ресурсоёмкость
+                            обработки запросов, что приводит к уязвимости к атакам типа «отказ в обслуживании» — (D)DoS
+                        </li>
+                        <li class="anim-hover-grow">Ошибки, допущенные администратором веб-сервера — несвоевременное
+                            обновление ПО или небезопасное конфигурирование сервисов</li>
+                        <li class="anim-hover-grow">Незнание или несоблюдение сотрудниками банальных правил безопасности
+                            — простые пароли, ввод данных на фишинговых сайтах, заражение вирусами ПК.</li>
+                    </ul>
+                </div>
+
+                <div class="markdown-body mt-3">
+                    <h1 class="anim-fade-up">Рекомендации</h1>
+                    <ul class="f3 py-4 anim-fade-up">
+                        <li class="anim-hover-grow">
+                            Доверяйте разработку требовательных к уровню безопасности сервисов опытным специалистам.
+                            Новички, как правило, могут добиться работоспособности приложения, но не в состоянии учесть
+                            риски взлома и атак типа «отказ в обслуживании».
+                        </li>
+                        <li class="anim-hover-grow">
+                            Администрированием сервера должен на регулярной основе заниматься компетентный специалист,
+                            большинство заражений сайтов вирусами происходит из-за того, что серверное ПО никто не
+                            обновляет, а очень много утечек данных связаны с неверным конфигурированием серверных служб
+                            (из банального — открытые «в мир» порты систем хранения).
+                        </li>
+                        <li class="anim-hover-grow">
+                            Обучайте пользователей основам информационной безопасности, урезайте права до необходимого
+                            для работы минимума и используйте мониторинг доступа к чувствительной информации. Огромное
+                            количество проблем связано именно с некомпетентностью нетехнического персонала, возникающих
+                            как из-за банальной некомпетентности (попался на фишинг, «случайно» удалил данные), так и по
+                            злому умыслу (хищение клиентской базы, слив заказов конкурентам и т.д.)
+                        </li>
+                        <li class="anim-hover-grow">
+                            Если вас мучают сомнения о безопасности вашего сайта, то закажите аудит безопасности у
+                            независимой компании. Мы на своей практике были по обе стороны этого процесса — и мы
+                            проверяли сторонние разработки на уязвимости, и разработанные нами системы проверяли —
+                            особенно много и тщательно в банковской / финансовой сфере.
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+        <!-- Sidebar -->
+        <div class="Layout-sidebar anim-fade-up" style="position: sticky; top: 0; min-height: 2em; height:600px">
+            <nav class="menu mt-3" aria-labelledby="menu-heading">
+                <span class="menu-heading" id="menu-heading">Меню сайта</span>
+                <a class="menu-item" href="index.html" aria-current="page">Главная</a>
+                <a class="menu-item" href="post1.html">Вирусы на сайтах</a>
+                <a class="menu-item" href="post5.html">Секретный метод 100% защиты сайта, нужно всего лишь...</a>
+                <a class="menu-item" href="post2.html">DDOs-атаки</a>
+                <a class="menu-item" href="post3.html">SQL-инъекции</a>
+                <a class="menu-item" href="post4.html">SSH — сетевой протокол</a>
+            </nav>
+            <ul class="leftBarList d-flex flex-column">
+                <li class="px-3 d-flex mt-2 anim-hover-grow">
+                    <img width="40" height="40" src="img/icons8-group-skin-type-7-96.png" alt="user counter"><span
+                        class="Counter ml-2 flex-self-center f4">1029 посетителей</span>
+                </li>
+                <li class="px-3 mt-3 anim-hover-grow">
+                    <a href="mem4.jpg" target="_blank" rel="noopener noreferrer"><img width="100%"
+                            class="img-responsive" src="img/mem4.jpg" alt=""></a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+<footer class="Header d-flex flex-column anim-fade-up">
+    <div class="flex-justify-center h3 md-h6 ">Политика конфиденциальности</div>
+    <div class="flex-justify-center h3">Вся информация взята с сайта <a href="https://web-creator.ru" target="_blank"
+            rel="noopener noreferrer">web-creator.ru</a></div>
+    <div class="flex-justify-center mt-2 flex-justify-around">
+        <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/youtube.png"
+                alt=""></a>
+        <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/facebook.png"
+                alt=""></a>
+        <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/instagram.png"
+                alt=""></a>
+        <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/telegram.png"
+                alt=""></a>
+        <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/twitter.png"
+                alt=""></a>
+    </div>
+</footer>
+
+</html>

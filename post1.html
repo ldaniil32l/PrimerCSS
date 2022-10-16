@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html data-color-mode="dark" data-dark-theme="dark_dimmed">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вирусы на сайтах</title>
+    <link rel="stylesheet" href="css/media.css">
+    <link href=" https://unpkg.com/@primer/css@^20.2.4/dist/primer.css " rel=" stylesheet " />
+</head>
+
+<header class="anim-fade-up">
+    <div class="Header header-main__wrapper d-flex  flex-wrap">
+        <div class="Header-item">
+            <a class="gfg_logo_img normal Header-link f4 d-flex flex-items-center" aria-label="Logo" href="index.html">
+                <div class="_logo"><img class="gfg_logo_img normal anim-rotate" src="img/icons8-spiderweb-96.png"
+                        alt="logo" width="40" height="40">
+                </div>
+                <span class="p-2">DaniilPopov</span>
+            </a>
+        </div>
+
+        <div class="Header-item">
+            <img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/s.png" alt=""><input
+                type="search" class="form-control Header-input" />
+        </div>
+        <div class="Header-item Header-item--full">
+            <span id="span" class="Label mr-1 Label--accent f5">Сайт разработан с помощью фреймворка Primer CSS</span>
+        </div>
+
+        <div class="flex-justify-center mt-2 flex-justify-around">
+            <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/youtube.png"
+                    alt=""></a>
+            <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/facebook.png"
+                    alt=""></a>
+            <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/instagram.png"
+                    alt=""></a>
+            <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/telegram.png"
+                    alt=""></a>
+            <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/twitter.png"
+                    alt=""></a>
+        </div>
+
+        <div class="header-main__container"></div>
+        <span class="hamburger-menu">
+            <span class="gfg-burger-1"></span>
+            <span class="gfg-burger-2"></span>
+            <span class="gfg-burger-3"></span>
+        </span>
+
+    </div>
+</header>
+
+<body>
+
+    <div class="Layout Layout--sidebarPosition-start">
+        <!-- Main -->
+        <div class="Layout-main px-3">
+            <div class="text-white py-6 p-responsive">
+                <nav aria-label="Breadcrumb anim-fade-up ">
+                    <ol class="anim-fade-up">
+                        <li class="breadcrumb-item">
+                            <a href="index.html">Главная</a>
+                        </li>
+                        <li class="breadcrumb-item breadcrumb-item-selected">
+                            <a href="post1.html" aria-current="page">Вирусы на сайтах</a>
+                        </li>
+                    </ol>
+                </nav>
+                <h1 class="f00-light anim-fade-up">Вирусы на сайтах</h1>
+                <p class="f3 mb-2 anim-fade-up">Откуда берутся вирусы на сайтах? Как с ними бороться?</p>
+                <div class="anim-fade-up">
+                    <a href="post5.html" class="no-underline f3-mktg mt-2">
+                        Супер способ защитить сайт
+                    </a>
+                </div>
+                <div class="markdown-body mt-3">
+                    <h1 class="anim-fade-up ">Причины заражения сайтов вирусами</h1>
+                    <p class="f3 py-1 anim-fade-up ">
+                        Три наиболее распространённые причины появления вирусов на сайтах — это кража паролей для
+                        доступа к файловой системе сервера, эксплуатация XSS-уязвимостей веб-сайтов, уязвимостей в
+                        серверном ПО (часто — в результате отсутствия своевременного обновления) и уязвимостей в
+                        используемых CMS (обычно тоже по причине отсутствия обновлений или из-за установки плагинов /
+                        расширений из недоверненных источников).
+                    </p>
+                    <p class="f3 py-1 anim-fade-up ">
+                        Пароли на FTP(S) или SFTP очень часто «запоминают» в программах для работы с файловой системой
+                        веб-проектов (FTP-клиенты и IDE), поэтому заражение этого компьютера троянскими вирусами может
+                        привести к утечке паролей. Аналогичное утверждение верно и для сохранённых в браузере паролей от
+                        административной части сайта. Утечка паролей обычно ведёт либо к взлому веб-проекта, либо к
+                        заражению его вирусами. Предотвратить подобное можно достаточно просто — не «запоминать» пароли
+                        и использовать качественное антивирусное ПО для защиты рабочих станций от заражения.
+                    </p>
+                    <p class="f3 py-1 anim-fade-up ">
+                        Эксплуатация XSS-уязвимостей тоже может приводить к размещению на сайте вредоносного кода.
+                        Предотвращение XSS-атак — это задача разработчиков платформы, как правило, XSS уязвимости
+                        «закрываются» на этапе разработки веб-проекта, равно как и возможности SQL-инъекций.
+                    </p>
+                    <p class="f3 py-1 anim-fade-up ">
+                        Предотвращение прочих уязвимостей — это тоже работа для разработчиков и системных
+                        администраторов. Современные веб-проекты содержат достаточно много сторонних компонентов,
+                        которые потенциально могут содержать ошибки, поэтому очень важно осуществлять регулярное
+                        сопровождение как платформы, на базе которой работает сайт, так и обновление серверного
+                        программного обеспечения.
+                    </p>
+                </div>
+
+                <div class="markdown-body mt-3">
+                    <h1 class="anim-fade-up ">Обнаружение вирусов на сайтах</h1>
+                    <p class="f3 py-1 anim-fade-up ">
+                        Поисковые системы Яндекс и Google в настоящее время осуществляют постоянный контроль за
+                        отсутствием вирусов на индексируемых сайтах. В случае, если сайт добавлен в Яндекс.ВебМастер или
+                        в WebMaster Google, то информация о заражении будет оперативно предоставлена владельцам сайта
+                        или технической поддержке.
+                    </p>
+                </div>
+
+                <div class="markdown-body mt-3">
+                    <h1 class="anim-fade-up ">Лечение вирусов на сайтах</h1>
+                    <p class="f3 py-1 anim-fade-up ">
+                        Лечение вирусов на сайтах достаточно простое. Типовой вирус — это JS-код, размещенный на сайте.
+                        Его удаления достаточно для того, чтобы сайт перестал быть заражённым. Однако, всегда стоит
+                        выяснять причины заражения и устранять уязвимости, иначе риск повторного заражения будет
+                        стремиться к 100%.
+                    </p>
+                </div>
+
+                <div class="anim-fade-up">
+                    <span class="Label mr-1 Label--accent f4">Читайте также</span> <a href="post2.html"
+                        class="link-mktg arrow-target-mktg link-emphasis-mktg text-semibold f3-mktg mt-2">
+                        DDoS — распределенные атаки типа «отказ в обслуживании»
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="octicon arrow-symbol-mktg" width="16" height="16"
+                            fill="none">
+                            <path fill="currentColor"
+                                d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z">
+                            </path>
+                            <path stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path>
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- Sidebar -->
+        <div class="Layout-sidebar anim-fade-up" style="position: sticky; top: 0; min-height: 2em; height:600px">
+            <nav class="menu mt-3" aria-labelledby="menu-heading">
+                <span class="menu-heading" id="menu-heading">Меню сайта</span>
+                <a class="menu-item" href="index.html">Главная</a>
+                <a class="menu-item" href="post1.html" aria-current="page">Вирусы на сайтах</a>
+                <a class="menu-item" href="post5.html">Секретный метод 100% защиты сайта, нужно всего лишь...</a>
+                <a class="menu-item" href="post2.html">DDOs-атаки</a>
+                <a class="menu-item" href="post3.html">SQL-инъекции</a>
+                <a class="menu-item" href="post4.html">SSH — сетевой протокол</a>
+            </nav>
+            <ul class="leftBarList d-flex flex-column">
+                <li class="px-3 d-flex mt-2 anim-hover-grow">
+                    <img width="40" height="40" src="img/icons8-group-skin-type-7-96.png" alt="user counter"><span
+                        class="Counter ml-2 flex-self-center f4">1007 посетителей</span>
+                </li>
+                <li class="px-3 mt-3 anim-hover-grow">
+                    <a href="img/mem2.jpg" target="_blank" rel="noopener noreferrer"><img width="100%"
+                            class="img-responsive" src="img/mem2.jpg" alt=""></a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+<footer>
+    <div class="Header d-flex flex-column anim-fade-up">
+        <div class="flex-justify-center h3">Политика конфиденциальности</div>
+        <div class="flex-justify-center h3">Вся информация взята с сайта <a href="https://web-creator.ru"
+                target="_blank" rel="noopener noreferrer">web-creator.ru</a></div>
+        <div class="flex-justify-center mt-2 flex-justify-around">
+            <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/youtube.png"
+                    alt=""></a>
+            <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/facebook.png"
+                    alt=""></a>
+            <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/instagram.png"
+                    alt=""></a>
+            <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/telegram.png"
+                    alt=""></a>
+            <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/twitter.png"
+                    alt=""></a>
+        </div>
+    </div>
+
+</footer>
+
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html data-color-mode="dark" data-dark-theme="dark_dimmed">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDoS — распределенные атаки типа</title>
+    <link rel="stylesheet" href="css/media.css">
+    <link href=" https://unpkg.com/@primer/css@^20.2.4/dist/primer.css " rel=" stylesheet " />
+</head>
+
+<header class="anim-fade-up">
+    <div class="Header header-main__wrapper d-flex  flex-wrap">
+        <div class="Header-item">
+            <a class="gfg_logo_img normal Header-link f4 d-flex flex-items-center" aria-label="Logo" href="index.html">
+                <div class="_logo"><img class="gfg_logo_img normal anim-rotate" src="img/icons8-spiderweb-96.png"
+                        alt="logo" width="40" height="40">
+                </div>
+                <span class="p-2">DaniilPopov</span>
+            </a>
+        </div>
+
+        <div class="Header-item">
+            <img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/s.png" alt=""><input
+                type="search" class="form-control Header-input" />
+        </div>
+        <div class="Header-item Header-item--full">
+            <span id="span" class="Label mr-1 Label--accent f5">Сайт разработан с помощью фреймворка Primer CSS</span>
+        </div>
+
+        <div class="flex-justify-center mt-2 flex-justify-around">
+            <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/youtube.png"
+                    alt=""></a>
+            <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/facebook.png"
+                    alt=""></a>
+            <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/instagram.png"
+                    alt=""></a>
+            <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/telegram.png"
+                    alt=""></a>
+            <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/twitter.png"
+                    alt=""></a>
+        </div>
+
+        <div class="header-main__container"></div>
+        <span class="hamburger-menu">
+            <span class="gfg-burger-1"></span>
+            <span class="gfg-burger-2"></span>
+            <span class="gfg-burger-3"></span>
+        </span>
+
+    </div>
+</header>
+
+<body>
+
+    <div class="Layout Layout--sidebarPosition-start">
+        <!-- Main -->
+        <div class="Layout-main px-3">
+            <div class="text-white py-6 p-responsive">
+                <nav aria-label="Breadcrumb anim-fade-up ">
+                    <ol class="anim-fade-up">
+                        <li class="breadcrumb-item">
+                            <a href="index.html">Главная</a>
+                        </li>
+                        <li class="breadcrumb-item breadcrumb-item-selected">
+                            <a href="post1.html" aria-current="page">DDoS — распределенные атаки типа «отказ в
+                                обслуживании»</a>
+                        </li>
+                    </ol>
+                </nav>
+                <h1 class="f00-light anim-fade-up">DDoS — распределенные атаки типа «отказ в обслуживании»</h1>
+                <p class="f3 mb-4 anim-fade-up">Суть этого типа атак состоит в «перегрузке» атакуемого сервера или
+                    каналов связи, а исчерпание ресурсов атакуемой системы или ухудшает качество работы приложения, или
+                    вообще прекращает его работу. Простой DoS встречается редко и обычно отбивается банальной
+                    блокировкой доступа к системе для атакующего компьютера.
+                    DDоS — это распределённая атака, основанная на том же принципе, то есть производящаяся с более чем
+                    одного атакующего компьютера. DDoS несколько усложняет блокировку атакующих — чем больше атакующий
+                    ботнет, тем сложнее отбиваться.</p>
+                <div class="anim-fade-up"><img width="50%" class="img-responsive anim-hover-grow" src="img/ddos.jpg"
+                        alt=""></div>
+                <div class="markdown-body mt-3">
+                    <h1 class="anim-fade-up ">DDoS — это не про HighLoad или производительность</h1>
+                    <p class="f3 py-1 anim-fade-up ">
+                        DoS или DDoS не стоит путать с падением производительности или сбоями под нагрузкой.
+                    </p>
+                    <p class="f3 py-1 anim-fade-up ">
+                        Начнём с того, что 9 из 10 случаев, когда Заказчик говорит, что его проект DDoS'ят — это
+                        заблуждение, вызванное тем, что сайт просто «тормозит» по другим причинам: плохая архитектура
+                        приложения или недостаточно мощное хостинговое оборудование.
+                    </p>
+                    <ul class="f3 py-1 anim-fade-up">
+                        <li class="anim-hover-grow">
+                            <p>Реальный DDoS стоит для его инициатора денег и редко длится неделями, как это бывает у
+                                «заблуждающихся».</p>
+                        </li>
+                        <li class="anim-hover-grow">
+                            <p>В принципе не DDoS'ят «местячковые» проекты, которые посещает не больше несколько сотен
+                                человек в сутки — они просто никому «дорогу не переходят».</p>
+                        </li>
+                        <li class="anim-hover-grow">
+                            <p>Если сайт на дешёвом виртуальном хостинге, то там и легитимные посетители способны
+                                «положить» инфраструктуру.</p>
+                        </li>
+                        <li class="anim-hover-grow">
+                            <p>Проекты, сделанные дёшево и «на коленке», могут просто плохо работать, для высокой
+                                производительности нужны усилия разработчиков, решения «из коробки» редко бывают
+                                устойчивыми к нагрузкам.</p>
+                        </li>
+                    </ul>
+                    <p class="f3 mb-2 anim-fade-up">Решение очень простое — сменить хостинг на более производительный,
+                        осуществить профилирование работы сайта или веб-приложения и убрать «узкие места».</p>
+                </div>
+
+                <div class="markdown-body mt-3">
+                    <h1 class="anim-fade-up ">Реальные атаки DDoS</h1>
+                    <p class="f3 py-1 anim-fade-up ">
+                        Если классифицировать по уровню атаки, то есть 2 сценария:
+                    </p>
+                    <ul class="f3 py-1 anim-fade-up">
+                        <li class="anim-hover-grow">
+                            <p>(D)DoS на приложение</p>
+                        </li>
+                        <li class="anim-hover-grow">
+                            <p>(D)DoS на сеть</p>
+                        </li>
+                    </ul>
+                    <p class="f3 anim-fade-up ">
+                        В случае, когда имеет место реальный (D)DoS, распространены два основных варианта:
+                    </p>
+                    <ol class="f3 anim-fade-up">
+                        <li class="anim-hover-grow">
+                            <p>Атака относительно слабая и нацелена в основном на уровень приложения, но приложение или
+                                сервер не могут от неё отбиться в силу недостаточной оптимизированности. Это наиболее
+                                частый вариант, когда атака имеет место на не самые популярные ресурсы. Чаще всего
+                                помогает настройка брандмауэра, выявление и бан атакующих, а если проблема в приложении
+                                — то спасает настройка кеширования и усложнение доступа к «тяжёлой» функциональности,
+                                которая грузит сервер. </p>
+                        </li>
+                        <li class="anim-hover-grow">
+                            <p>Атака сильная и полностью «забивает» канал связи — на уровне приложения и сервера с ней
+                                уже не справиться. Встречается в коммерческом сегменте такое не очень часто. Тут уже
+                                надо обращаться за помощью к хостеру или к специализированным компаниям — они могут
+                                «взять удар на себя» и пропустят к сайту только нормальных пользователей.</p>
+                        </li>
+                    </ol>
+                </div>
+
+                <!-- <table summary="This is a chart of invoices for 2011.">
+                    <thead>
+                        <tr>
+                            <th scope="col">(D)DoS на приложение</th>
+                            <th scope="col">Основные механики защиты от DDos на уровень приложения</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <td>Table footer 1</td>
+                            <td>Table footer 2</td>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td>Table data 1</td>
+                            <td>Table data 2</td>
+                        </tr>
+                    </tbody>
+                </table> -->
+
+                <div class="anim-fade-up">
+                    <span class="Label mr-1 Label--accent f4">Читайте также</span> <a href="post3.html"
+                        class="link-mktg arrow-target-mktg link-emphasis-mktg text-semibold f3-mktg mt-2">
+                        SQL-инъекции — распространённый метод взлома веб-приложений и сайтов
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="octicon arrow-symbol-mktg" width="16" height="16"
+                            fill="none">
+                            <path fill="currentColor"
+                                d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z">
+                            </path>
+                            <path stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <!-- Sidebar -->
+        <div class="Layout-sidebar anim-fade-up" style="position: sticky; top: 0; min-height: 2em; height:600px">
+            <nav class="menu mt-3" aria-labelledby="menu-heading">
+                <span class="menu-heading" id="menu-heading">Меню сайта</span>
+                <a class="menu-item" href="index.html">Главная</a>
+                <a class="menu-item" href="post1.html">Вирусы на сайтах</a>
+                <a class="menu-item" href="post5.html">Секретный метод 100% защиты сайта, нужно всего лишь...</a>
+                <a class="menu-item" href="post2.html" aria-current="page">DDOs-атаки</a>
+                <a class="menu-item" href="post3.html">SQL-инъекции</a>
+                <a class="menu-item" href="post4.html">SSH — сетевой протокол</a>
+            </nav>
+            <ul class="leftBarList d-flex flex-column">
+                <li class="px-3 d-flex mt-2 anim-hover-grow">
+                    <img width="40" height="40" src="img/icons8-group-skin-type-7-96.png" alt="user counter"><span
+                        class="Counter ml-2 flex-self-center f4">117 посетителей</span>
+                </li>
+
+                <li class="px-3 mt-3 anim-hover-grow">
+                    <a href="img/mem1.jpg" target="_blank" rel="noopener noreferrer"><img width="100%"
+                            class="img-responsive" src="img/mem1.jpg" alt=""></a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+<footer class="Header d-flex flex-column anim-fade-up">
+    <div class="flex-justify-center h3">Политика конфиденциальности</div>
+    <div class="flex-justify-center h3">Вся информация взята с сайта <a href="https://web-creator.ru" target="_blank"
+            rel="noopener noreferrer">web-creator.ru</a></div>
+    <div class="flex-justify-center mt-2 flex-justify-around">
+        <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/youtube.png"
+                alt=""></a>
+        <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/facebook.png"
+                alt=""></a>
+        <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/instagram.png"
+                alt=""></a>
+        <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/telegram.png"
+                alt=""></a>
+        <a href="#"><img class="p-2 img-responsive anim-hover-grow" width="40" height="40" src="img/twitter.png"
+                alt=""></a>
+    </div>
+</footer>
+
+</html>
